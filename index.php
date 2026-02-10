@@ -77,7 +77,7 @@ require_once 'header.php';
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
-                <img src="images/dedicated-craftsmanship.JPG" alt="A view of our quality craftsmanship" class="rounded-lg shadow-xl w-full" onerror="this.onerror=null;this.src='https://placehold.co/800x600/CCCCCC/FFFFFF?text=Image+Not+Found';">
+                <img src="images/dedicated-craftsmanship.jpg" alt="A view of our quality craftsmanship" class="rounded-lg shadow-xl w-full" onerror="this.onerror=null;this.src='https://placehold.co/800x600/CCCCCC/FFFFFF?text=Image+Not+Found';">
             </div>
             <div class="md:w-1/2">
                 <span class="text-amber-600 font-semibold uppercase tracking-wider text-sm">Our Promise</span>

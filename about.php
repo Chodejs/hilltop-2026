@@ -16,7 +16,7 @@ require_once 'header.php';
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div class="md:w-1/2">
-                <img src="images/team-photo.JPG" alt="The team at Hilltop Welding and Maintenance LLC" class="rounded-lg shadow-xl w-full">
+                <img src="images/team-photo.jpg" alt="The team at Hilltop Welding and Maintenance LLC" class="rounded-lg shadow-xl w-full">
                 <p class="text-center text-sm text-gray-500 mt-2">Meet Our Team (OH & WV)</p>
             </div>
             <div class="md:w-1/2">

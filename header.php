@@ -58,8 +58,6 @@ $og_image_url = $protocol . "://" . $host . "/images/social-share.jpg";
     <link rel="stylesheet" href="styles.css"> 
     <link rel="icon" href="images/logo-dark-mode.JPG" type="image/jpg">
 
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
