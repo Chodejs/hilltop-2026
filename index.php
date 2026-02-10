@@ -7,7 +7,7 @@ require_once 'header.php';
 
 <section class="bg-slate-700 text-white py-14 md:py-28 relative overflow-hidden">
     <div class="absolute inset-0">
-        <img src="images/pipes.JPG" alt="Abstract background with pipe and welding imagery" class="w-full h-full object-cover opacity-30" onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/1E293B/FFFFFF?text=Background+Image+Not+Found';">
+        <img src="images/pipes.jpg" alt="Abstract background with pipe and welding imagery" class="w-full h-full object-cover opacity-30" onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/1E293B/FFFFFF?text=Background+Image+Not+Found';">
     </div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
