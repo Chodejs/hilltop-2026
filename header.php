@@ -113,7 +113,7 @@ $og_image_url = $protocol . "://" . $host . "/images/logo-dark-mode.png";
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between <?php echo $header_height_class; ?> transition-all duration-300">
                 <div class="shrink-0">
-                    <a href="index.php" class="block">
+                    <a href="/" class="block">
                         <img src="<?php echo $logo_image_src; ?>" 
                              alt="Hilltop Welding and Maintenance LLC Logo" 
                              class="<?php echo $logo_height_class; ?> w-auto object-contain transition-all duration-300" 
@@ -122,10 +122,10 @@ $og_image_url = $protocol . "://" . $host . "/images/logo-dark-mode.png";
                 </div>
 
                 <nav class="hidden md:flex space-x-6 lg:space-x-8 items-center">
-                    <a href="index.php" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == 'index.php') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">Home</a>
-                    <a href="about.php" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == 'about.php') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">About Us</a>
-                    <a href="services.php" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == 'services.php') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">Services</a>
-                    <a href="contact.php" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == 'contact.php') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">Contact</a>
+                    <a href="/" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == '/') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">Home</a>
+                    <a href="about" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == 'about') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">About Us</a>
+                    <a href="services" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == 'services') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">Services</a>
+                    <a href="contact" class="px-3 py-2 rounded-md text-sm font-medium <?php echo ($current_page == 'contact') ? 'bg-amber-500 text-slate-900' : 'hover:bg-slate-700 hover:text-amber-400 transition-colors'; ?>">Contact</a>
                     <a href="tel:+17403179570" class="ml-4 px-4 py-2 rounded-md text-sm font-medium bg-amber-500 text-slate-900 hover:bg-amber-600 transition-colors shadow-sm">
                         (740) 317-9570
                     </a>
@@ -147,10 +147,10 @@ $og_image_url = $protocol . "://" . $host . "/images/logo-dark-mode.png";
 
         <div id="mobile-menu" class="md:hidden"> 
             <div class="px-2 pt-2 pb-6 space-y-1 sm:px-3 bg-slate-800 shadow-xl">
-                <a href="index.php" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'index.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">Home</a>
-                <a href="about.php" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'about.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">About Us</a>
-                <a href="services.php" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'services.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">Services</a>
-                <a href="contact.php" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'contact.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">Contact</a>
+                <a href="/" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'index.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">Home</a>
+                <a href="about" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'about.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">About Us</a>
+                <a href="services" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'services.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">Services</a>
+                <a href="contact" class="block px-3 py-3 rounded-md text-base font-medium <?php echo ($current_page == 'contact.php') ? 'bg-amber-500 text-slate-900' : 'text-slate-200 hover:bg-slate-700 hover:text-amber-400'; ?>">Contact</a>
                  <a href="tel:+17403179570" class="mt-4 block w-full text-center px-4 py-4 rounded-md text-lg font-bold bg-amber-500 text-slate-900 hover:bg-amber-600 transition-colors">
                     Call (740) 317-9570
                 </a>

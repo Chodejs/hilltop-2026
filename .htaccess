@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# 1. Force HTTPS (Security Best Practice)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Remove .php extension from URL
+# If the request is not a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# And the request + .php exists as a file
+RewriteCond %{REQUEST_FILENAME}.php -f
+# Rewrite the URL internally to the .php file
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# 3. Redirect external .php requests to extensionless URL (SEO)
+# If the actual request ends in .php
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+# Redirect to the version without .php
+RewriteRule ^ /%1 [R=301,L]

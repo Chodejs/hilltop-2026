@@ -8,7 +8,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                     <!-- Added new small logo to the footer -->
-                    <a href="index.php" class="inline-block mb-4">
+                    <a href="/" class="inline-block mb-4">
                         <img src="images/logo-dark-mode.png" alt="Hilltop Welding Logo" class="h-20 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/120x50/1E293B/FFFFFF?text=Logo';">
                     </a>
                     <h5 class="text-lg font-semibold text-amber-500 mb-3">Hilltop Welding & Maintenance LLC</h5>
@@ -22,11 +22,11 @@
                 <div>
                     <h5 class="text-lg font-semibold text-amber-500 mb-3">Quick Links</h5>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="index.php" class="hover:text-amber-400 transition-colors">Home</a></li>
-                        <li><a href="about.php" class="hover:text-amber-400 transition-colors">About Us</a></li>
-                        <li><a href="services.php" class="hover:text-amber-400 transition-colors">Services</a></li>
-                        <li><a href="contact.php" class="hover:text-amber-400 transition-colors">Contact Us</a></li>
-                        <li><a href="contact.php#get-a-quote" class="hover:text-amber-400 transition-colors">Get a Free Quote</a></li>
+                        <li><a href="/" class="hover:text-amber-400 transition-colors">Home</a></li>
+                        <li><a href="about" class="hover:text-amber-400 transition-colors">About Us</a></li>
+                        <li><a href="services" class="hover:text-amber-400 transition-colors">Services</a></li>
+                        <li><a href="contact" class="hover:text-amber-400 transition-colors">Contact Us</a></li>
+                        <li><a href="contact#get-a-quote" class="hover:text-amber-400 transition-colors">Get a Free Quote</a></li>
                     </ul>
                 </div>
 
