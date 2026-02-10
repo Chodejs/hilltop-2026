@@ -30,7 +30,7 @@ if ($current_page == 'index.php') {
 }
 
 // Social Share Image - TIP: Save a 1200x630 version of your hero image as 'social-share.jpg'
-$og_image_url = $protocol . "://" . $host . "/images/social-share.jpg"; 
+$og_image_url = $protocol . "://" . $host . "/images/logo-dark-mode.jpg"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
