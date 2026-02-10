@@ -55,9 +55,10 @@ $og_image_url = $protocol . "://" . $host . "/images/social-share.jpg";
     <meta property="twitter:description" content="<?php echo htmlspecialchars($meta_desc_text); ?>">
     <meta property="twitter:image" content="<?php echo $og_image_url; ?>">
     
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css"> 
     <link rel="icon" href="images/logo-dark-mode.JPG" type="image/jpg">
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <script type="application/ld+json">
     {
@@ -79,7 +80,6 @@ $og_image_url = $protocol . "://" . $host . "/images/social-share.jpg";
 
     <style>
         html { scroll-behavior: smooth; }
-        
         /* Mobile Menu Animation Styles */
         #mobile-menu-button .hamburger-icon { display: block; }
         #mobile-menu-button .close-icon { display: none; }
@@ -114,7 +114,7 @@ $og_image_url = $protocol . "://" . $host . "/images/social-share.jpg";
     <header class="bg-slate-800 text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between <?php echo $header_height_class; ?> transition-all duration-300">
-                <div class="flex-shrink-0">
+                <div class="shrink-0">
                     <a href="index.php" class="block">
                         <img src="<?php echo $logo_image_src; ?>" 
                              alt="Hilltop Welding and Maintenance LLC Logo" 
@@ -160,7 +160,7 @@ $og_image_url = $protocol . "://" . $host . "/images/social-share.jpg";
         </div>
     </header>
 
-    <main class="flex-grow">
+    <main class="grow">
         
     <script>
         document.addEventListener('DOMContentLoaded', function () {

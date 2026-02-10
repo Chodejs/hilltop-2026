@@ -32,9 +32,9 @@ require_once 'header.php';
             <div class="bg-slate-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col">
                 
                 <img src="images/plumbing-services.png" alt="A clean and professional plumbing installation with copper pipes." class="w-full rounded-md mb-6" onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Image+Not+Found';">
-                <div class="flex flex-col flex-grow">
+                <div class="flex flex-col grow">
                     <h3 class="text-2xl font-semibold text-slate-800 mb-3">Full Plumbing Services</h3>
-                    <p class="text-gray-600 mb-4 flex-grow">
+                    <p class="text-gray-600 mb-4 grow">
                         Comprehensive plumbing solutions by a Master Plumber. From repairs to installations, we handle it all with expertise.
                     </p>
                     <a href="services.php#plumbing" class="text-amber-600 hover:text-amber-700 font-semibold transition-colors mt-auto">Learn More →</a>
@@ -43,9 +43,9 @@ require_once 'header.php';
             
             <div class="bg-slate-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col">
                  <img src="images/certified-pipe-welding2.png" alt="Certified pipe welding project" class="w-full rounded-md mb-6" onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Pipe+Welding+Image+Not+Found';">
-                <div class="flex flex-col flex-grow">
+                <div class="flex flex-col grow">
                     <h3 class="text-2xl font-semibold text-slate-800 mb-3">Certified Pipe Welding & Fabrication</h3>
-                    <p class="text-gray-600 mb-4 flex-grow">
+                    <p class="text-gray-600 mb-4 grow">
                         Expert pipe welding and custom fabrication services. Precision and durability for all your piping needs.
                     </p>
                     <a href="services.php#pipewelding" class="text-amber-600 hover:text-amber-700 font-semibold transition-colors mt-auto">Learn More →</a>
@@ -56,9 +56,9 @@ require_once 'header.php';
                 <a href="https://hilltopwaterheater.com/" target="_blank" rel="noopener noreferrer" class="block mb-6">
                     <img src="images/New-Hilltop-WH-Logo-NoBG-Small.png" alt="Hot water tank installation by Hilltop Water Heaters" class="w-full rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Water+Heater+Image+Not+Found';">
                 </a>
-                <div class="flex flex-col flex-grow">
+                <div class="flex flex-col grow">
                     <h3 class="text-2xl font-semibold text-slate-800 mb-3">Hot Water Tanks & Gas Lines</h3>
-                    <p class="text-gray-600 mb-4 flex-grow">
+                    <p class="text-gray-600 mb-4 grow">
                         Specializing in hot water tank installation and repair, plus safe and reliable gas line installation and servicing. Visit <a href="https://hilltopwaterheater.com/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:text-amber-700 underline">HilltopWaterHeater.com</a> for more details.
                     </p>
                     <a href="services.php#hot_water_tank_services" class="text-amber-600 hover:text-amber-700 font-semibold transition-colors mt-auto">Learn More on This Site →</a>
