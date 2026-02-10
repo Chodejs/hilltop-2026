@@ -16,7 +16,7 @@ require_once 'header.php';
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div class="md:w-1/2">
-                <img src="https://placehold.co/800x600/F59E0B/1E293B?text=Team+Photo+Coming+Soon" alt="The team at Hilltop Welding and Maintenance LLC" class="rounded-lg shadow-xl w-full">
+                <img src="images/team-photo.JPG" alt="The team at Hilltop Welding and Maintenance LLC" class="rounded-lg shadow-xl w-full">
                 <p class="text-center text-sm text-gray-500 mt-2">Meet Our Team (OH & WV)</p>
             </div>
             <div class="md:w-1/2">
@@ -43,7 +43,10 @@ require_once 'header.php';
             <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
                 We are proud to be a local business serving the Ohio Valley. The Veterans Memorial Bridge isn't just a landmark; it's a symbol of the strength, resilience, and connection that defines our community—qualities we strive to reflect in our work every day.
             </p>
-            <img src="images/Vet-Mem-Bridge-Large.png" alt="A scenic view of the Veterans Memorial Bridge connecting Steubenville, Ohio and Weirton, West Virginia." class="rounded-lg shadow-xl w-full max-w-5xl mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/1200x400/CCCCCC/FFFFFF?text=Bridge+Image';">
+            <img src="images/Vet-Mem-Bridge-Large.png" 
+                 alt="A scenic view of the Veterans Memorial Bridge connecting Steubenville, Ohio and Weirton, West Virginia." 
+                 class="rounded-lg shadow-xl w-full max-w-5xl mx-auto h-64 md:h-96 object-cover object-center" 
+                 onerror="this.onerror=null;this.src='https://placehold.co/1200x400/CCCCCC/FFFFFF?text=Bridge+Image';">
         </div>
     </div>
 </section>

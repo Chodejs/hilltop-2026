@@ -9,7 +9,7 @@
                 <div>
                     <!-- Added new small logo to the footer -->
                     <a href="index.php" class="inline-block mb-4">
-                        <img src="images/Logo-Small-No-BG.png" alt="Hilltop Welding Logo" class="h-20 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/120x50/1E293B/FFFFFF?text=Logo';">
+                        <img src="images/logo-dark-mode.png" alt="Hilltop Welding Logo" class="h-20 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/120x50/1E293B/FFFFFF?text=Logo';">
                     </a>
                     <h5 class="text-lg font-semibold text-amber-500 mb-3">Hilltop Welding & Maintenance LLC</h5>
                     <p class="text-sm mb-2">
@@ -50,7 +50,7 @@
 
             <div class="mt-8 pt-8 border-t border-slate-700 text-center text-sm">
                 <p>&copy; <?php echo date("Y"); ?> Hilltop Welding and Maintenance LLC. All Rights Reserved.</p>
-                <p class="mt-1">Website by Chris & Emma</p>
+                <p class="mt-1"><a href="https://www.portfolio.maracentral.com" target="_blank" class="text-amber-500 hover:text-amber-300">Website by Chris & Emma</a></p>
             </div>
         </div>
     </footer>

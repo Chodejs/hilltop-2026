@@ -8,7 +8,6 @@ require_once 'header.php';
 <section class="bg-slate-700 text-white py-12 md:py-16">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-3xl sm:text-4xl font-bold">Our Specialized Services</h1>
-        <!-- CHANGE: Removed subtitle per notes -->
     </div>
 </section>
 
@@ -38,7 +37,7 @@ require_once 'header.php';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-                <img src="https://placehold.co/700x500/1E293B/F59E0B?text=Master+Plumbing" alt="Professional plumbing tools and installation" class="w-full object-cover rounded-lg shadow-lg mb-4 md:mb-0" onerror="this.onerror=null;this.src='https://placehold.co/700x500/CCCCCC/FFFFFF?text=Image+Not+Found';">
+                <img src="images/master-plumbing.JPG" alt="Professional plumbing tools and installation" class="w-full object-cover rounded-lg shadow-lg mb-4 md:mb-0" onerror="this.onerror=null;this.src='https://placehold.co/700x500/CCCCCC/FFFFFF?text=Image+Not+Found';">
             </div>
             <div>
                 <!-- CHANGE: Rephrased to be team-focused per notes -->

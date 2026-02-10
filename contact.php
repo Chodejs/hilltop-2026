@@ -1,6 +1,8 @@
 <?php
 // contact.php - DEBUGGING VERSION
 
+require_once 'header.php';
+
 // --- PHP ERROR REPORTING FOR LOCAL DEBUGGING ---
 // This code will force any PHP errors to be displayed on the screen.
 // This is a diagnostic tool and should be removed before going live.
