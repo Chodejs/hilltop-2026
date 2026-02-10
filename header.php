@@ -30,7 +30,7 @@ if ($current_page == 'index.php') {
 }
 
 // Social Share Image - TIP: Save a 1200x630 version of your hero image as 'social-share.jpg'
-$og_image_url = $protocol . "://" . $host . "/images/logo-dark-mode.jpg"; 
+$og_image_url = $protocol . "://" . $host . "/images/logo-dark-mode.png"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -56,7 +56,7 @@ $og_image_url = $protocol . "://" . $host . "/images/logo-dark-mode.jpg";
     <meta property="twitter:image" content="<?php echo $og_image_url; ?>">
     
     <link rel="stylesheet" href="styles.css"> 
-    <link rel="icon" href="images/logo-dark-mode.JPG" type="image/jpg">
+    <link rel="icon" href="images/logo-dark-mode.png" type="image/png">
 
     <script type="application/ld+json">
     {
